@@ -1,0 +1,14 @@
+import React from 'react';
+
+import { SharedStateProvider } from './SharedContext';
+import UserBottomTab from './UserBottomTab';
+
+const AnimatedTabs: React.FC = () => {
+  return (
+    <SharedStateProvider>
+      <UserBottomTab />
+    </SharedStateProvider>
+  );
+};
+
+export default AnimatedTabs;
