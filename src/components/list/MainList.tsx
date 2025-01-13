@@ -5,10 +5,10 @@ import Animated, { useAnimatedStyle, withTiming } from 'react-native-reanimated'
 
 import { useShareState } from '@features/tabs/SharedContext';
 import { restaurantStyles } from '@unistyles/restuarantStyles';
+import { filtersOption } from '@utils/dummyData';
 import RestaurantList from './RestaurantList';
 import ExploreSection from '@components/home/ExploreSection';
 import BackToTopButton from '@components/ui/BackToTopButton';
-import { filtersOption } from '@utils/dummyData';
 import SortingAndFilters from '@components/home/SortingAndFilters';
 
 const sectionedData = [
